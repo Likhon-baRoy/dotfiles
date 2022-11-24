@@ -1,0 +1,18 @@
+# format with playlist_index
+-N 3
+# format with playlist-separate-directory, playlist_index, title, uploder-name, upload_date, and again playlist_name !!
+-o "%(playlist)s/%(playlist_index)s - %(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s"
+--embed-thumbnail
+--embed-metadata
+--embed-info-json
+#--write-subs
+--embed-subs
+--write-auto-subs
+--sub-langs "en.*"
+--merge-output-format mkv
+--default-search ytsearch
+--sponsorblock-mark all
+--prefer-ffmpeg
+--ignore-errors
+--replace-in-metadata "title,uploader" "[ _]" "-"
+#--parse-metadata "description:(?s)(?P<meta_comment>.+)" --embed-metadata

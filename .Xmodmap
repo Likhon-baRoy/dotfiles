@@ -1,0 +1,5 @@
+keycode 9 = Escape
+keycode 37 = Escape
+keycode 66 = Control_L
+clear Lock
+add Control = Control_L

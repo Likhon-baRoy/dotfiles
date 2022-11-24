@@ -1,0 +1,26 @@
+{
+  "add books dialog dir": "/home/raxit/Downloads/html",
+  "add books dialog dir-last-used-filter-spec-all-files": false,
+  "add formats dialog dir": "/home/raxit/pix/mpv",
+  "add formats dialog dir-last-used-filter-spec-all-files": false,
+  "database location dialog": "/home/raxit/.config",
+  "notified-version-updates": {
+    "__class__": "set",
+    "__value__": [
+      "6.0",
+      "6.2"
+    ]
+  },
+  "sort_history": [
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "default",
+  "welcome_wizard_was_run": true
+}

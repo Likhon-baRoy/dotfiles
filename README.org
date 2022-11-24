@@ -1,0 +1,11 @@
+#+TITLE:  Arch/Artix DWM configuration dotfiles
+#+AUTHOR: Likhon Barai
+#+EMAIL:  likhonhere007@gmail.com
+#+DATE:   2022 Nov 24
+#+TAGS:
+
+* 🌿 Information
+
+Thanks for dropping by! This is my personal repository of my dotfiles. \\
+
+/Dotfiles are configuration files that hold the settings for Unix/Linux applications./

@@ -1,0 +1,85 @@
+#!/bin/sh
+
+###--- Enable Bangla Keybord ---###
+
+# Use neovim for vim if present.
+[ -x "$(command -v nvim)" ] && alias vim="nvim" vimdiff="nvim -d"
+
+# Use $XINITRC variable if file exists.
+[ -f "$XINITRC" ] && alias startx="startx $XINITRC"
+
+# sudo not required for some system commands
+for command in mount umount sv pacman updatedb su shutdown poweroff reboot ; do
+	alias $command="sudo $command"
+done; unset command
+
+# Verbosity and settings that you pretty much just always are going to want.
+alias \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -iv" \
+	bc="bc -ql" \
+	mkd="mkdir -pv" \
+    ffmpeg="ffmpeg -hide_banner"
+
+# Just some Random shortcuts which i use for myself
+alias \
+    jatiyo="localectl set-x11-keymap us,bd "" , grp:alt_space_toggle" \
+    probhat="localectl set-x11-keymap us,bd '' ,probhat grp:alt_shift_toggle" \
+    xx="ffmpeg -f pulse -ac 2 -i default -f x11grab -r 30 -s 1280x800 -i :0.0 -acodec pcm_s16le -vcodec libx264 -preset ultrafast -threads 0 -y ~/yt/recorded/$(date +%y-%m-%d).mkv"
+
+# Youtbe means yt-dlp
+alias \
+	ydl="youtube-dl --add-metadata -i" \
+	ydla="yt -x -f bestaudio/best" \
+    yt="yt-dlp -f 'bv*[height<=1080][ext=mp4]+ba[ext=m4a]/b[height<=1080][ext=mp4] / bv*+ba/b'" \
+    yta="yt-dlp -f 'ba' -x --audio-format opus" \
+    ytt="yt -o '%(title).200B.%(ext)s'" \
+    tvb='mpv --ytdl-format=22 $1' \
+    tvh='mpv --ytdl-format="(bestvideo[height<=?1080][vcodec!=vp9]/bestvideo)+(bestaudio[acodec!=opus]/bestaudio)" $1' \
+    tvm='mpv --ytdl-format=18 $1'
+#---22 is for 720, and 18 is for 360.---#
+
+# Colorize commands when possible.
+alias \
+	ls="ls -hN --color=auto --group-directories-first" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" \
+	ccat="highlight --out-format=ansi"
+
+# Git Shortcut
+alias \
+    g="git" \
+    gst="g status" \
+    ga="g add" \
+    gcm="g commit -m" \
+    gp="g push origin" \
+    gcl="g clone"
+
+
+# These common commands are just too long! Abbreviate them.
+alias \
+	ka="killall" \
+	trem="transmission-remote" \
+	YT="youtube-viewer" \
+	bb="feh --randomize --bg-scale ~/Pictures/wallpapers/*" \
+	key="setxkbmap -layout us,bd '', probhat grp:shift_caps_toggle" \
+	sdn="shutdown -h now" \
+	e="$EDITOR" \
+    ed="e --debug-init" \
+    v="nvim" \
+    r="ranger" \
+    p="pacman" \
+    pi="pacman -S" \
+    px="pacman -Rs" \
+    xi="sudo xbps-install" \
+    xr="sudo xbps-remove -R" \
+    xq="xbps-query" \
+    z="zathura"
+
+alias \
+	lf="lfub" \
+	magit="nvim -c MagitOnly" \
+	aliasrc="vim ~/.config/shell/aliasrc" \
+	ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/zshnameddirrc" \
+	weath="less -S ${XDG_DATA_HOME:-$HOME/.local/share}/weatherreport" \

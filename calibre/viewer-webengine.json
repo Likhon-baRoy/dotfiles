@@ -1,0 +1,225 @@
+{
+  "local_storage": {
+    "search-bar-history-search-for-sc": [
+      "page",
+      "table"
+    ]
+  },
+  "main_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAAAAAAAEwAAAr8AAAMfAAAAAwAAABYAAAK8AAADHAAAAAAAAAAABQAAAAADAAAAFgAAArwAAAMc"
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEAAAADIPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAAAAADIAAAAIcA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAkwD///8AAAABAAABAAAAAyD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAAB7AP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOQA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEwD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAAAAADIAAAAMYA////AAACugAAAwcAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "base_font_size": 14,
+    "controls_help_shown_count": 2,
+    "current_color_scheme": "sepia-light",
+    "highlight_style": {
+      "kind": "color",
+      "type": "builtin",
+      "which": "green"
+    },
+    "keyboard_shortcuts": {
+      "down": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "j",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "end_of_book": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "g",
+          "metaKey": false,
+          "shiftKey": true
+        }
+      ],
+      "extend_selection_by_paragraph": [],
+      "left": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "l",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "new_bookmark": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "m",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "pagedown": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "n",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "pageup": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "p",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "print": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "p",
+          "metaKey": false,
+          "shiftKey": true
+        }
+      ],
+      "right": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "h",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "scrollspeed_decrease": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "]",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "scrollspeed_increase": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": ">",
+          "metaKey": false,
+          "shiftKey": true
+        }
+      ],
+      "start_of_book": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "g",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "toggle_full_screen": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "f",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "toggle_toc": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "Tab",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "toggle_toolbar": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "t",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "up": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "k",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ]
+    },
+    "read_mode": "flow",
+    "standalone_font_settings": {
+      "mono_family": "Noto Serif Bengali",
+      "sans_family": "Noto Serif Bengali",
+      "serif_family": "Noto Serif Bengali"
+    },
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "show_actions_toolbar": false,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Alan Beaulieu"
+        ],
+        "key": "/home/raxit/Calibre Library/Alan Beaulieu/Learning SQL, 3rd Edition (6)/Learning SQL, 3rd Edition - Alan Beaulieu.epub",
+        "pathtoebook": "/home/raxit/Calibre Library/Alan Beaulieu/Learning SQL, 3rd Edition (6)/Learning SQL, 3rd Edition - Alan Beaulieu.epub",
+        "timestamp": "2022-08-17T23:53:14.012Z",
+        "title": "Learning SQL, 3rd Edition"
+      },
+      {
+        "authors": [
+          "Bill Bryson"
+        ],
+        "key": "/home/raxit/Calibre Library/Bill Bryson/A Short History of Nearly Everything (3)/A Short History of Nearly Everything - Bill Bryson.epub",
+        "pathtoebook": "/home/raxit/Calibre Library/Bill Bryson/A Short History of Nearly Everything (3)/A Short History of Nearly Everything - Bill Bryson.epub",
+        "timestamp": "2022-08-14T14:17:06.995Z",
+        "title": "A Short History of Nearly Everything"
+      },
+      {
+        "authors": [
+          "Bill Bryson"
+        ],
+        "key": "/home/raxit/Calibre Library/Bill Bryson/A Really Short History of Nearly Everything (4)/A Really Short History of Nearly Everythin - Bill Bryson.epub",
+        "pathtoebook": "/home/raxit/Calibre Library/Bill Bryson/A Really Short History of Nearly Everything (4)/A Really Short History of Nearly Everythin - Bill Bryson.epub",
+        "timestamp": "2022-08-14T14:17:00.015Z",
+        "title": "A Really Short History of Nearly Everything"
+      },
+      {
+        "authors": [
+          "Avijit Roy, Raihan Abir"
+        ],
+        "key": "/home/raxit/Calibre Library/Avijit Roy, Raihan Abir/Obiswasher Dorshon (5)/Obiswasher Dorshon - Avijit Roy, Raihan Abir.epub",
+        "pathtoebook": "/home/raxit/Calibre Library/Avijit Roy, Raihan Abir/Obiswasher Dorshon (5)/Obiswasher Dorshon - Avijit Roy, Raihan Abir.epub",
+        "timestamp": "2022-08-14T14:00:46.187Z",
+        "title": "Obiswasher Dorshon"
+      },
+      {
+        "authors": [
+          "Eating Animals-Little, Brown"
+        ],
+        "key": "/home/raxit/Calibre Library/Eating Animals-Little, Brown/Eating Animals (2)/Eating Animals - Eating Animals-Little, Brown.epub",
+        "pathtoebook": "/home/raxit/Calibre Library/Eating Animals-Little, Brown/Eating Animals (2)/Eating Animals - Eating Animals-Little, Brown.epub",
+        "timestamp": "2022-07-14T06:20:59.606Z",
+        "title": "Eating Animals"
+      }
+    ]
+  }
+}

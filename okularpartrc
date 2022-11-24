@@ -1,0 +1,8 @@
+[Document]
+RenderMode=Recolor
+
+[Main View]
+ShowLeftPanel=false
+
+[Reviews]
+QuickAnnotationDefaultAction=1
