@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+/mpv/watch_later/*
+/transmission-daemon/*
+/libreoffice/*
+=======
 mpv/watch_later/*
 transmission-daemon/*
 libreoffice/*
+>>>>>>> c67a41e (added .gitignore)
