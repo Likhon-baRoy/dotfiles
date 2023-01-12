@@ -109,9 +109,162 @@
       255
     ]
   ],
+  "geometry-of-calibre_main_window_geometry": {
+    "frame_geometry": {
+      "height": 486,
+      "width": 850,
+      "x": 217,
+      "y": 154
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 480,
+      "width": 844,
+      "x": 220,
+      "y": 157
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 480,
+      "width": 844,
+      "x": 220,
+      "y": 157
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAADZAAAAmgAABCoAAAJ/AAAA3AAAAJ0AAAQnAAACfAAAAAAAAAAABQAAAADcAAAAnQAABCcAAAJ8"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 800,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Lenovo Group Limited",
+      "model": "",
+      "name": "LVDS-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 800,
+        "width": 1280
+      },
+      "virtual_geometry": {
+        "height": 800,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-convert_single_dialog_geom": {
+    "frame_geometry": {
+      "height": 706,
+      "width": 1216,
+      "x": 32,
+      "y": 56
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 700,
+      "width": 1210,
+      "x": 35,
+      "y": 59
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 700,
+      "width": 1210,
+      "x": 35,
+      "y": 59
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAgAAAAOAAABN8AAAL5AAAAIwAAADsAAATcAAAC9gAAAAAAAAAABQAAAAAjAAAAOwAABNwAAAL2"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 800,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Lenovo Group Limited",
+      "model": "",
+      "name": "LVDS-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 800,
+        "width": 1280
+      },
+      "virtual_geometry": {
+        "height": 800,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-duplicates-question-dialog-geometry": {
+    "frame_geometry": {
+      "height": 386,
+      "width": 519,
+      "x": 381,
+      "y": 216
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 380,
+      "width": 513,
+      "x": 384,
+      "y": 219
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 380,
+      "width": 513,
+      "x": 384,
+      "y": 219
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAF9AAAA2AAAA4MAAAJZAAABgAAAANsAAAOAAAACVgAAAAAAAAAABQAAAAGAAAAA2wAAA4AAAAJW"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 800,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Lenovo Group Limited",
+      "model": "",
+      "name": "LVDS-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 800,
+        "width": 1280
+      },
+      "virtual_geometry": {
+        "height": 800,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
   "grid view visible": false,
   "library_usage_stats": {
-    "/home/raxit/Calibre Library": 32
+    "/home/raxit/Calibre Library": 36
   },
   "quick_start_guide_added": true,
   "quickview visible": false,
@@ -124,6 +277,17 @@
     "__class__": "bytearray",
     "__value__": "AdnQywADAAAAAAD9AAAA4gAABAIAAAI9AAABAAAAAOUAAAP/AAACOgAAAAAAAAAABQAAAAEAAAAA5QAAA/8AAAI6"
   },
+  "replace_scene_breaks_history": [
+    "",
+    "<hr />",
+    "∗ ∗ ∗",
+    "• • •",
+    "♦ ♦ ♦",
+    "† †",
+    "‡ ‡ ‡",
+    "∞ ∞ ∞",
+    "¤ ¤ ¤"
+  ],
   "search bar visible": true,
   "tag browser search box visible": false,
   "tag_browser_splitter_horizontal_state": [

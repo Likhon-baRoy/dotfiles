@@ -1,4 +1,55 @@
 {
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 800,
+      "width": 1280,
+      "x": 0,
+      "y": 0
+    },
+    "full_screened": true,
+    "geometry": {
+      "height": 800,
+      "width": 1280,
+      "x": 0,
+      "y": 0
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 755,
+      "width": 1214,
+      "x": 33,
+      "y": 32
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAABP8AAAMfAAAAIQAAACAAAATeAAADEgAAAAAABAAABQAAAAAAAAAAAAAABP8AAAMf"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 800,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Lenovo Group Limited",
+      "model": "",
+      "name": "LVDS-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 800,
+        "width": 1280
+      },
+      "virtual_geometry": {
+        "height": 800,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
   "local_storage": {
     "search-bar-history-search-for-sc": [
       "page",
@@ -11,7 +62,7 @@
   },
   "main_window_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEAAAADIPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAAAAADIAAAAIcA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAkwD///8AAAABAAABAAAAAyD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAAB7AP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOQA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEwD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAAAAADIAAAAMYA////AAACugAAAwcAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEAAAADIPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAAAAADIAAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAABAAAAAyD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACEAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAAAAADIAAAANIA////AAAFAAAAAyAAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
   },
   "old_prefs_migrated": true,
   "session_data": {
@@ -175,6 +226,15 @@
       "singleinstance": false
     },
     "standalone_recently_opened": [
+      {
+        "authors": [
+          "Boxall, Peter"
+        ],
+        "key": "/home/raxit/Calibre Library/Boxall, Peter/1001 Books_ You Must Read Before You Die (9)/1001 Books_ You Must Read Before You Die - Boxall, Peter.epub",
+        "pathtoebook": "/home/raxit/Calibre Library/Boxall, Peter/1001 Books_ You Must Read Before You Die (9)/1001 Books_ You Must Read Before You Die - Boxall, Peter.epub",
+        "timestamp": "2022-12-20T20:53:40.124Z",
+        "title": "1001 Books: You Must Read Before You Die"
+      },
       {
         "authors": [
           "Alan Beaulieu"

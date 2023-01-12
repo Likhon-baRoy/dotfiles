@@ -53,9 +53,26 @@ alias \
     gst="g status" \
     ga="g add" \
     gcm="g commit -m" \
-    gp="g push origin" \
-    gcl="g clone"
+    gp='g pull' \
+    gP="g push" \
+    gcl="g clone" \
+    gbr='g branch' \
+    gco='g checkout' \
+    gd='g diff --color' \
+    grb='g rebase' \
+    grh='g reset --hard' \
+    gs='g stash' \
+    gsc='g svn dcommit' \
+    gsp='g stash pop' \
+    gsr='g svn rebase' \
+    gl="g log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all" \
+    gl2="g log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n'' %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
 
+# Android device
+alias \
+    smtp='simple-mtpfs -l' \
+    smtpd='simple-mtpfs --device' \
+    fmnt='fusermount -u'
 
 # These common commands are just too long! Abbreviate them.
 alias \
@@ -67,6 +84,8 @@ alias \
 	sdn="shutdown -h now" \
 	e="$EDITOR" \
     ed="e --debug-init" \
+    ecl="emacsclient -nc -a '""'" \
+    E="SUDO_EDITOR=\"emacsclient -nc -a emacs\" sudoedit" \
     v="nvim" \
     r="ranger" \
     p="pacman" \
