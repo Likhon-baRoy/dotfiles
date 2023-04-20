@@ -17,6 +17,60 @@ HISTFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/history"
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc"
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/zshnameddirrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shell/zshnameddirrc"
 
+# Transmission torrent client via the command line.
+#  Start given torrents
+function trms {
+    transmission-remote -t "$@" -s
+}
+# Stop(pause) given torrents
+function trmS {
+    transmission-remote -t "$@" -S
+}
+# Obtain a list of all files within a torrent
+function trmf {
+    transmission-remote -t "$@" -f
+}
+# Marks files 1-3 for download
+function trmg {
+    transmission-remote -t "$@" -g1,2,3
+}
+# Set all torrents files priorities to normal
+function trmn {
+    transmission-remote -tall -pnall
+}
+# Set all torrents first two files priorities to high
+function trm2 {
+    transmission-remote -tall -ph1,2
+}
+# Download only its second and fourth files:
+function trmr {
+    transmission-remote -t "$@" -Gall -g2,4
+}
+# Verifies local data
+function trmv {
+    transmission-remote -t "$@" --verify
+}
+# Asks the tracker for more peers
+function trmp {
+    transmission-remote -t "$@" --reannounce
+}
+# Remove torrent file but preserve data
+function trmd {
+    transmission-remote -t "$@" --remove
+}
+# Remove and delete torrent and data
+function trmdd {
+    transmission-remote -t "$@" --remove-and-delete
+}
+# Gives information about torrent
+function trmi {
+    transmission-remote -t "$@" -i
+}
+# Moves torrent to the given path
+function trmm {
+    transmission-remote -t "$@" -m
+}
+
 # Basic auto/tab complete:
 autoload -U compinit
 zstyle ':completion:*' menu select

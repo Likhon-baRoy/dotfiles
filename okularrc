@@ -6,25 +6,27 @@ shouldShowToolBarComingFromFullScreen=true
 [MainWindow]
 LVDS-1=LVDS-1
 LVDS-1 Height 1277x798=754
-LVDS-1 Height 1277x798 LVDS-1=503
+LVDS-1 Height 1277x798 LVDS-1=581
 LVDS-1 Height 1280x800=753
 LVDS-1 Width 1277x798=1212
-LVDS-1 Width 1277x798 LVDS-1=838
+LVDS-1 Width 1277x798 LVDS-1=842
 LVDS-1 Width 1280x800=659
 LVDS-1 XPosition 1277x798=33
-LVDS-1 XPosition 1277x798 LVDS-1=220
+LVDS-1 XPosition 1277x798 LVDS-1=215
 LVDS-1 XPosition 1280x800=33
 LVDS-1 YPosition 1277x798=32
-LVDS-1 YPosition 1277x798 LVDS-1=157
+LVDS-1 YPosition 1277x798 LVDS-1=116
 LVDS-1 YPosition 1280x800=34
-State=AAAA/wAAAAD9AAAAAAAAA0YAAAHAAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAAA0oAAAIKAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 
 [Recent Files]
 File1[$e]=$HOME/Downloads/linux-stuff/Learning the bash Shell_ Unix Shell Programming (2005).pdf
 File2[$e]=$HOME/Downloads/linux-stuff/Bash Pocket Reference_ Help for Power Users and Sys Admins (2016).pdf
+File3[$e]=$HOME/Downloads/One-Punch Man (Digital) (danke-Empire+LuCaZ+Anonymous)/One-Punch Man v21 (2020) (Digital) (danke-Empire).cbz
 Name1[$e]=Learning the bash Shell_ Unix Shell Programming (2005).pdf
 Name2[$e]=Bash Pocket Reference_ Help for Power Users and Sys Admins (2016).pdf
+Name3[$e]=One-Punch Man v21 (2020) (Digital) (danke-Empire).cbz
 
 [UiSettings]
 ColorScheme=

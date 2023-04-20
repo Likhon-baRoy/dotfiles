@@ -74,20 +74,30 @@ alias \
     smtpd='simple-mtpfs --device' \
     fmnt='fusermount -u'
 
+# Transmission
+alias \
+    trm='transmission-remote' \
+    trma='transmission-remote -a' \
+    trmr='transmission-remote -t' \
+    trml='transmission-remote -l' \
+    wtrm='watch -c -n 3 "transmission-remote -tactive -l"' \
+    trmx='transmission-remote --exit'
+
 # These common commands are just too long! Abbreviate them.
 alias \
 	ka="killall" \
-	trem="transmission-remote" \
-	YT="youtube-viewer" \
-	bb="feh --randomize --bg-scale ~/Pictures/wallpapers/*" \
-	key="setxkbmap -layout us,bd '', probhat grp:shift_caps_toggle" \
-	sdn="shutdown -h now" \
-	e="$EDITOR" \
+    YT="youtube-viewer" \
+    bb="feh --randomize --bg-scale ~/Pictures/wallpapers/*" \
+    key="setxkbmap -layout us,bd '', probhat grp:shift_caps_toggle" \
+    sdn="shutdown -h now" \
+    e="$EDITOR" \
     ed="e --debug-init" \
     ecl="emacsclient -nc -a '""'" \
     E="SUDO_EDITOR=\"emacsclient -nc -a emacs\" sudoedit" \
     v="nvim" \
     r="ranger" \
+    red="redshift -P -O" \
+    redx="redshift -x" \
     p="pacman" \
     pi="pacman -S" \
     px="pacman -Rs" \
