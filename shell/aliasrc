@@ -33,7 +33,7 @@ alias \
 	ydl="youtube-dl --add-metadata -i" \
 	ydla="yt -x -f bestaudio/best" \
     yt="yt-dlp -f 'bv*[height<=1080][ext=mp4]+ba[ext=m4a]/b[height<=1080][ext=mp4] / bv*+ba/b'" \
-    yta="yt-dlp -f 'ba' -x --audio-format opus" \
+    yta="yt-dlp -x --audio-format best" \
     ytt="yt -o '%(title).200B.%(ext)s'" \
     tvb='mpv --ytdl-format=22 $1' \
     tvh='mpv --ytdl-format="(bestvideo[height<=?1080][vcodec!=vp9]/bestvideo)+(bestaudio[acodec!=opus]/bestaudio)" $1' \
@@ -77,6 +77,7 @@ alias \
 # Transmission
 alias \
     trm='transmission-remote' \
+    trmd='transmission-daemon' \
     trma='transmission-remote -a' \
     trmr='transmission-remote -t' \
     trml='transmission-remote -l' \

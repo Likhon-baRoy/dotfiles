@@ -1,3 +1,6 @@
+keycode  10 = Shift_L NoSymbol Shift_L
+keycode  50 = 1 exclam 1 exclam
+
 keycode 9 = Escape
 keycode 37 = Escape
 keycode 66 = Control_L
