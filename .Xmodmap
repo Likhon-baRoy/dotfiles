@@ -1,8 +1,19 @@
-keycode  10 = Shift_L NoSymbol Shift_L
-keycode  50 = 1 exclam 1 exclam
-
 keycode 9 = Escape
 keycode 37 = Escape
 keycode 66 = Control_L
 clear Lock
 add Control = Control_L
+
+! ! Remove existing mappings for Caps Lock and Control_L
+! clear Lock
+! clear Control
+
+! ! Map Caps Lock to Left Control
+! keycode 66 = Control_L
+
+! ! Map Control_L to Escape
+! keycode 37 = Escape
+
+! ! Add new mappings for Caps Lock and Control_L
+! add Lock = Caps_Lock
+! add Control = Control_L
